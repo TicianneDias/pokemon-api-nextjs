@@ -1,14 +1,14 @@
 import Footer from "../components/Footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
 
-const About = () => {
+const Pokemons = () => {
     return ( 
         <>
         <NavBar />
-        <h1>About Page</h1>
+        <h1>Pokemons Page</h1>
         <Footer />
         </>
      );
 }
  
-export default About;
+export default Pokemons;

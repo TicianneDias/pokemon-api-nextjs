@@ -9,7 +9,7 @@ export default function Home() {
         <title>Pokemon API</title>
       </Head>
       <NavBar/>
-      <h1>Pokemon</h1>
+      <h1>Home Page</h1>
       <Footer/>
     </div>
   )
