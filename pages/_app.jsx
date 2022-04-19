@@ -1,9 +1,10 @@
 import Layout from '../components/Layout'
-import '../styles/globals.css'
+import Global from '../styles/Global'
 
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
+      <Global/>
       <Component {...pageProps} />
     </Layout>
   )
