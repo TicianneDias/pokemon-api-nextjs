@@ -45,7 +45,7 @@
 ## 👩‍💻 Sobre mim: <a id="sobremim"></a>
 <div align="center">
     <p>
-        <a style="padding:30px" href="https://www.linkedin.com/in/ticianne-dias-a7a66b134/">Linkedin</a>
+        <a style="padding:30px" href="https://www.linkedin.com/in/ticiannedias">Linkedin</a>
         <a style="padding:30px" href="https://ticiannedias.github.io/">Currículo online</a>
     </p>
 </div>
