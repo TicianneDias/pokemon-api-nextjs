@@ -11,6 +11,16 @@ const Nav = styled.nav`
 
     a {
         margin-left: 12px;
+        color: black;
+        background: linear-gradient(to right, red, #e6e609, blue);
+        background-clip: text;
+        -webkit-background-clip: text;
+
+        &:hover {
+            color: transparent;
+            transition: 0.5s ease;
+            text-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0, 0.3);
+        }
     }
 
     .logo {
@@ -23,7 +33,7 @@ const NavBar = () => {
     return ( 
         <Nav>
             <div className="logo">
-                <h1>Pokémon</h1>
+                <h1>PoKéMoN</h1>
             </div>
             <Link href="/"><a>Home</a></Link>
             <Link href="/about"><a>About</a></Link>
