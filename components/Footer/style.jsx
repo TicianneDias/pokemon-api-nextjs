@@ -7,4 +7,8 @@ export const FooterSite = styled.footer`
     margin-top: 60px;
     color: darkblue;
     border-top: 1px solid darkred;
+
+    a {
+        margin: 1px;
+    }
 `;
