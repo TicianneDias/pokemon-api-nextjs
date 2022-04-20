@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import Image from 'next/image';
 import Link from 'next/link'
 import SadGif from '../public/error404.gif'
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 const Container404 = styled.div`
     @font-face {
@@ -29,12 +31,20 @@ const Container404 = styled.div`
 `;
 
 const PageNotFound = () => {
+    const router = useRouter();
+
+    useEffect(() => {
+        setTimeout(() => {
+            router.push('/')
+        }, 5000)
+    })
+
     return ( 
         <Container404>
             <h3>Ops.. That page could not be found!</h3>
             <Image 
                 src={SadGif} 
-                alt="Sad Pikachu" 
+                alt="Sad Pikachu with Page Not Found error" 
                 width='200px'
                 height='200px'/>
             <p>Go back to <Link href="/"><a>Homepage</a></Link></p>

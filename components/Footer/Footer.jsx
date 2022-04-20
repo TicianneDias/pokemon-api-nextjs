@@ -1,5 +1,19 @@
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
-import { FooterSite } from './style'
+import styled from 'styled-components';
+
+const FooterSite = styled.footer`
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+    color: darkblue;
+    border-top: 1px solid darkred;
+
+    a {
+        margin: 1px;
+    }
+`;
+
 
 const Footer = () => {
     return ( 
