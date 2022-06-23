@@ -36,10 +36,10 @@ const PageNotFound = () => {
     useEffect(() => {
         setTimeout(() => {
             router.push('/')
-        }, 5000)
+        }, 7000)
     })
 
-    return ( 
+    return (
         <Container404>
             <h3>Ops.. That page could not be found!</h3>
             <Image 
